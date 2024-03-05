@@ -37,7 +37,13 @@ if (divFor5 % 5 === 0) {
 */
 let number1 = 4;
 let number2 = 4;
-if (number1 === 8 || number2 === 8 || number1 + number2 === 8) {
+if (
+  number1 === 8 ||
+  number2 === 8 ||
+  number1 + number2 === 8 ||
+  number1 - number2 === 8 ||
+  number2 - number1 === 8
+) {
   console.log(true);
 }
 
